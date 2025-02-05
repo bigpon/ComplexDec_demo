@@ -5,7 +5,7 @@ layout: default
 <center><I> Yi-Chiao Wu, Dejan Marković, Steven Krenn, Israel D. Gebru, and Alexander Richard </I></center> 
 <center> Meta Reality Labs Research, USA </center> <br /> 
 
-This page is the demo of ComplexDec [[paper]]
+This page is the demo of ComplexDec [[paper](https://arxiv.org/abs/2502.02019)]
 
 ## **Abstract**  
 <p align="justify"> Neural audio codecs have been widely adopted in audio-generative tasks because their compact and discrete representations are suitable for both large-language-model-style and regression-based generative models. However, most neural codecs struggle to model out-of-domain audio, resulting in error propagations to downstream generative tasks. In this paper, we first argue that information loss from codec compression degrades out-of-domain robustness. Then, we propose full-band 48~kHz ComplexDec with complex spectral input and output to ease the information loss while adopting the same 24~kbps bitrate as the baseline AuidoDec and ScoreDec. Objective and subjective evaluations demonstrate the out-of-domain robustness of ComplexDec trained using only the 30-hour VCTK corpus. </p>
