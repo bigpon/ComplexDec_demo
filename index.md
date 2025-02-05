@@ -8,7 +8,7 @@ layout: default
 This page is the demo of ComplexDec [[paper](https://arxiv.org/abs/2502.02019)]
 
 ## **Abstract**  
-<p align="justify"> Neural audio codecs have been widely adopted in audio-generative tasks because their compact and discrete representations are suitable for both large-language-model-style and regression-based generative models. However, most neural codecs struggle to model out-of-domain audio, resulting in error propagations to downstream generative tasks. In this paper, we first argue that information loss from codec compression degrades out-of-domain robustness. Then, we propose full-band 48~kHz ComplexDec with complex spectral input and output to ease the information loss while adopting the same 24~kbps bitrate as the baseline AuidoDec and ScoreDec. Objective and subjective evaluations demonstrate the out-of-domain robustness of ComplexDec trained using only the 30-hour VCTK corpus. </p>
+<p align="justify"> Neural audio codecs have been widely adopted in audio-generative tasks because their compact and discrete representations are suitable for both large-language-model-style and regression-based generative models. However, most neural codecs struggle to model out-of-domain audio, resulting in error propagations to downstream generative tasks. In this paper, we first argue that information loss from codec compression degrades out-of-domain robustness. Then, we propose full-band 48 kHz ComplexDec with complex spectral input and output to ease the information loss while adopting the same 24 kbps bitrate as the baseline AuidoDec and ScoreDec. Objective and subjective evaluations demonstrate the out-of-domain robustness of ComplexDec trained using only the 30-hour VCTK corpus. </p>
 
 
 ## **Architecture**  
@@ -65,7 +65,7 @@ This page is the demo of ComplexDec [[paper](https://arxiv.org/abs/2502.02019)]
 
 
 ## **Speech Quality Measurments** 
-<p align="justify">ComplexDec achieves similar in-domain and out-of-domain coding qualities while AudioDec and ScoreDec suffer significant degradation in coding the out-of-domain speech. ComplexDec also significantly outperforms the open-source Encodec models. The results indicate that the serious information loss cannot be fully compensated by the SPF or by solely increasing the training data. On the other hand, DAC also achieves impressive out-of-domain robustness because of its low compression ratio. However, the marked quality gap between ComplexDec and DAC shows the significant perceptual quality difference between 48~kHz and 24~kHz speech. </p>
+<p align="justify">ComplexDec achieves similar in-domain and out-of-domain coding qualities while AudioDec and ScoreDec suffer significant degradation in coding the out-of-domain speech. ComplexDec also significantly outperforms the open-source Encodec models. The results indicate that the serious information loss cannot be fully compensated by the SPF or by solely increasing the training data. On the other hand, DAC also achieves impressive out-of-domain robustness because of its low compression ratio. However, the marked quality gap between ComplexDec and DAC shows the significant perceptual quality difference between 48 kHz and 24 kHz speech. </p>
 <br /> 
 <center><img src="res/figure/quality.jpg" style="display:block;width:900px;height:200px"></center>  
 
